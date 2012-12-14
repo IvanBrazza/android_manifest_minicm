@@ -14,7 +14,7 @@
   <default revision="refs/heads/jellybean"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="30" />
 
   <project path="build" name="MiniCM/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -220,7 +220,7 @@
   <project path="hardware/libhardware_legacy" name="MiniCM/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/display" name="MiniCM/android_hardware_qcom_display" />
+  <project path="hardware/qcom/display" name="WinSuk/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="MiniCM/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
